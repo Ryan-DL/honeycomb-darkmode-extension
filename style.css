@@ -1,0 +1,28 @@
+html[data-dark-mode-enabled] #page > .content {
+    filter: invert(100%) hue-rotate(180deg);
+}
+html[data-dark-mode-enabled] #query-engine, 
+html[data-dark-mode-enabled] #board-list, 
+html[data-dark-mode-enabled] #trigger-list, 
+html[data-dark-mode-enabled] #slo-app, 
+html[data-dark-mode-enabled] #history, 
+html[data-dark-mode-enabled] #dataset-list, 
+html[data-dark-mode-enabled] #settings-view, 
+html[data-dark-mode-enabled] #team-settings,
+html[data-dark-mode-enabled] #environment-list, 
+html[data-dark-mode-enabled] #send-data-container, 
+html[data-dark-mode-enabled] #account-profile, 
+html[data-dark-mode-enabled] #trigger-form,
+html[data-dark-mode-enabled] .content:has(#board-list),
+html[data-dark-mode-enabled] .content:has(#trigger-list),
+html[data-dark-mode-enabled] .content:has(#slo-app),
+html[data-dark-mode-enabled] .content:has(#history),
+html[data-dark-mode-enabled] .content:has(#dataset-list),
+html[data-dark-mode-enabled] .content:has(#settings-view),
+html[data-dark-mode-enabled] .content:has(#team-settings),
+html[data-dark-mode-enabled] .content:has(#environment-list),
+html[data-dark-mode-enabled] .content:has(#send-data-container),
+html[data-dark-mode-enabled] .content:has(#account-profile)
+{
+    background-color: #ffffff;
+}

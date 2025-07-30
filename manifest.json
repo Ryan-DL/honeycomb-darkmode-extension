@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Honeycomb Darkmode",
+  "version": "1.0",
+  "description": "A dark mode for ui.honeycomb.io.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ui.honeycomb.io/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "favicon.png"
+  }
+}
