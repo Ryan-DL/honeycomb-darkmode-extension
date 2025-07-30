@@ -17,3 +17,7 @@ A simple Chrome extension to enable dark mode on Honeycomb UI.
     *   Enable "Developer mode" in the top right corner.
     *   Click "Load unpacked".
     *   Select the `honeycomb-darkmode` directory.
+
+### Shoutouts
+
+Thanks to Brian Clapper for the styling!
