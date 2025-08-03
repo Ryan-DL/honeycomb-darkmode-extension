@@ -2,10 +2,6 @@
 
 A simple Chrome extension to enable dark mode on Honeycomb UI.
 
-## Screenshot
-
-![Honeycomb Darkmode](image.png)
-
 ## Installation
 
 [Link to Chrome Web Store]() (Coming Soon)
