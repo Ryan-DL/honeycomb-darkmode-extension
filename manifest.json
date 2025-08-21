@@ -3,7 +3,7 @@
   "name": "Honeycomb Darkmode",
   "version": "1.0",
   "description": "A dark mode for ui.honeycomb.io.",
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["storage"],
   "background": {
     "service_worker": "background.js"
   },
