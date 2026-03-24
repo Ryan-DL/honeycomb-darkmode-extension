@@ -1,4 +1,7 @@
-html[data-dark-mode-enabled] #page > .content {
+html[data-dark-mode-enabled] 
+	#page > .content,
+	body #app #page #navigation
+{
     background-color: #ffffff;
     filter: invert(100%) hue-rotate(180deg);
 }
