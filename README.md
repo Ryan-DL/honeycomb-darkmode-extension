@@ -1,3 +1,10 @@
+
+We no longer need this, as Honeycomb added Dark mode! 
+
+https://www.honeycomb.io/blog/innovation-week-day-2-observability-for-ai-observability-with-ai
+
+
+
 # Honeycomb Darkmode
 
 A simple Chrome extension to enable dark mode on Honeycomb UI.
